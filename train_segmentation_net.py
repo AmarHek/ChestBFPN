@@ -23,11 +23,12 @@ import pickle
 import gzip
 from PIL import Image
 from albumentations import *
-from segmentation_net import *
-from model_checkpoint_callback import *
 from segmentation_models.backbones import get_preprocessing
 from segmentation_models.losses import bce_jaccard_loss
 from segmentation_models.metrics import iou_score
+
+from segmentation_net import *
+from model_checkpoint_callback import *
 
 
 ROOT_PATH = os.path.dirname(os.path.dirname(os.path.realpath(__file__))) + '/'
