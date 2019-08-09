@@ -13,6 +13,10 @@ Python 3.*, keras 2.2.4, keras_contrib, segmentation_models, classification_mode
 - folder '**masks_test**' - test masks
 - file '**train_val_split.pkl**' - split on train and validation parts
 
+# Usage
+
+`python3 train_segmentation_net.py`
+
 # Citation
 
 If you use it please cite: 
