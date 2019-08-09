@@ -1,6 +1,10 @@
 # coding: utf-8
 __author__ = 'ZFTurbo: https://kaggle.com/zfturbo'
 
+'''
+Based on segmentation_models code:
+https://github.com/qubvel/segmentation_models
+'''
 
 import numpy as np
 from segmentation_models.backbones import get_feature_layers
