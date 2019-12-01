@@ -1,4 +1,6 @@
-# ChestBFPN
+# ChestBFPN (Work in Progress)
+# NOTE: We will release the data and finish the code refactoring around the conference time
+
 Bayesian Feature Pyramid Networks for Chest X-ray Segmentation and Automatic Assessment of Cardio-Thoratic Ratio
 
 # Requirements
